@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let name=prompt("what's your name?");
+    let Weight=prompt("What is your Weight");
+    let Height=prompt("What is your height");
+    let HeightBmi=parseInt(Height);
+    let WeightBmi=parseInt(Weight);
+    function bmi(x,y){
+        return y**2/x
+    }
+    alert(name+"بی ام آی شما="+" "+bmi(WeightBmi,HeightBmi))
+</script>
+</html>
